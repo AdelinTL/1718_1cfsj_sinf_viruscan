@@ -9,7 +9,12 @@ simple_menu () {
   echo "2 .- Scan a directory"
   echo "3 .- Scan all"
 
-  read $Option
+
+
+  echo "Introduce your option"
+  read Option
+  echo "Your option introduced is : "
+  echo $Option
 exit $Option
 }
 

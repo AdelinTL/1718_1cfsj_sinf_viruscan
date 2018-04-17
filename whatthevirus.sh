@@ -9,7 +9,7 @@ simple_menu
 
 
 
-case $Action in
+case simple_menu in
   1 )
     echo "3 .- Scan all"
     freshclam
