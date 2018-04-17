@@ -1,14 +1,15 @@
 # File that contains functions for antivirus launcher whatthevirus.sh
 # don not execute it directly
-# cambio andgba
-#EMPEZAMOS EL PROYECTO
 
 simple_menu () {
   echo "Please, write an option:"
-  echo "1 .- Refresh virus database"
-  echo "2 .- Scan a directory"
-  echo "3 .- Scan all"
+  echo "1 .- Install"
+  echo "2 .- Refresh virus database"
+  echo "3 .- Scan a directory"
+  echo "4 .- Scan all"
+  echo "5 .- Exit"
 
+<<<<<<< HEAD
 
 
   echo "Introduce your option"
@@ -16,6 +17,12 @@ simple_menu () {
   echo "Your option introduced is : "
   echo $Option
 exit $Option
+=======
+echo "Introduce your option: "
+  read Option
+
+#exit $Option
+>>>>>>> upstream/master
 }
 
 provide_dir () {
