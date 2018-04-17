@@ -5,7 +5,9 @@
 source tools.sh
 
 # Main body
-Action=$(simple_menu)
+simple_menu
+
+
 
 case $Action in
   1 )
