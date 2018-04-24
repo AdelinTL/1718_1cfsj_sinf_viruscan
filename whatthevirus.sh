@@ -4,18 +4,6 @@
 # Include functions from other file
 source tools.sh
 # Main body
-<<<<<<< HEAD
-simple_menu
-
-
-
-case simple_menu in
-  1 )
-    echo "3 .- Scan all"
-    freshclam
-    ;;
-=======
-
 clear
 while true
 do
@@ -25,10 +13,10 @@ do
       echo "1 .- Install"
       sudo apt-get install clamav clamav-daemon -y
       ;;
->>>>>>> upstream/master
+
 
     2 )
-      echo "3 .- Scan all"
+      echo "2 .- Refresh virus database"
       sudo freshclam
       ;;
 

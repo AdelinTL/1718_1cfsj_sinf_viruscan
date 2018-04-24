@@ -9,20 +9,11 @@ simple_menu () {
   echo "4 .- Scan all"
   echo "5 .- Exit"
 
-<<<<<<< HEAD
-
-
   echo "Introduce your option"
   read Option
   echo "Your option introduced is : "
   echo $Option
-exit $Option
-=======
-echo "Introduce your option: "
-  read Option
-
 #exit $Option
->>>>>>> upstream/master
 }
 
 provide_dir () {
