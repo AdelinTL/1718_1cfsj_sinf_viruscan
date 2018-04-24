@@ -18,6 +18,6 @@ simple_menu () {
 
 provide_dir () {
   echo "Please, provide a directory to scan"
-  read $Dir
-exit $Dir
+  read Dir
+#exit $Dir
 }
